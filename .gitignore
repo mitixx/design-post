@@ -1,0 +1,4 @@
+#git除外ファイル#
+*.log
+node_modules/
+.vagrant/

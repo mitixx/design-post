@@ -1,0 +1,11 @@
+{
+  "name": "dp",
+  "version": "1.0.0",
+  "description": "init version",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "webpack": "^4.0.1"
+  }
+}
