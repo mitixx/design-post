@@ -1,0 +1,2 @@
+Django
+python3でpipfile使用
