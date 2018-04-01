@@ -7,5 +7,8 @@
   "devDependencies": {
     "stylus": "^0.54.5",
     "webpack": "^4.0.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
   }
 }
