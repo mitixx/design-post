@@ -3,7 +3,8 @@ python3のpipenvでpipfile使用
 
 ## セット手順
 
-```pip install pipenv # pipでpipenvを入れる
+```
+pip install pipenv # pipでpipenvを入れる
 pipenv install # pipfileに記述されたものがインストールされる
 pipenv shell # pipenvのshellモード
 cd dp
