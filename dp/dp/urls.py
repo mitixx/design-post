@@ -19,3 +19,11 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+"""静的ファイル"""
+from django.conf import settings
+from django.conf.urls.static import static
+
+"""urlpatterns[
+    #静的ファイルの設置場所未定
+] + static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)"""

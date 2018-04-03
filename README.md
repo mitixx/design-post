@@ -5,6 +5,7 @@ python3のpipenvでpipfile使用
 
 ```
 pip install pipenv # pipでpipenvを入れる
+pipenv --three # python3セット
 pipenv install # pipfileに記述されたものがインストールされる
 pipenv shell # pipenvのshellモード
 cd dp

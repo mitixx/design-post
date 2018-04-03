@@ -8,6 +8,8 @@ Django = "*"
 django = "*"
 
 [dev-packages]
+pylint = "*"
+django-debug-toolbar = "*"
 
 [requires]
 python_version = "3.6"
