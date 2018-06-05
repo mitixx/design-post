@@ -3,7 +3,7 @@ python3のpipenvでpipfile使用
 
 ## セット手順
 
-python+pip+django
+### ython+pip+django
 
 ```
 pip install pipenv # pipでpipenvを入れる
@@ -15,7 +15,7 @@ python3 manage.py runserver # djangoが起動
 exit # pipenv shellモードから抜ける
 ```
 
-npm
+### npm
 
 ```
 cd dp
@@ -23,3 +23,11 @@ npm install
 yarn
 ```
 npmまたはyarnを使用
+
+
+### folder tree
+dp > dp = django py files<br>
+dp > dpp > templates = html,CSS　静的部分のテンプレート<br>
+dp > dpp > static = 静的ファイル<br>
+
+dp.xd Adobe XD Photoshopファイルはデザインファイル
