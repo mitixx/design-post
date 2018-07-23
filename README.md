@@ -3,7 +3,7 @@ python3のpipenvでpipfile使用
 
 ## セット手順
 
-### ython+pip+django
+### python+pip+django
 
 ```
 pip install pipenv # pipでpipenvを入れる
@@ -13,6 +13,14 @@ pipenv shell # pipenvのshellモード
 cd dp
 python3 manage.py runserver # djangoが起動
 exit # pipenv shellモードから抜ける
+```
+
+### firebase(deploy)
+
+```
+npm i -g firebase-tools
+firebase login #googleアカウントでログイン
+firebase deploy
 ```
 
 ### npm
