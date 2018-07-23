@@ -34,4 +34,26 @@ jobs:
           path: test-results
       - store_artifacts:
           path: test-results
-          destination: tr1
+          destination: tr
+
+        deploy-job:
+       docker:
+         - image: my-image-version-tag
+       working_directory: /tmp/my-project
+       steps:
+         - run:
+             name: Deploy Master to Firebase
+             command: ./node_modules/.bin/firebase deploy --token=1/qIZqRd6nZS8STs91riQ9xKeFSkdohi9aVPZb3mhfEf9xHfz5tUlg1QWEPdpYP2v2
+
+    workflows:
+      version: 2
+
+      -deploy:
+        jobs:
+          - build-job
+          - deploy-job:
+              requires:
+                - build-job
+              filters:
+                branches:
+                  only: master
