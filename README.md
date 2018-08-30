@@ -39,3 +39,4 @@ dp > dpp > templates = html,CSS　静的部分のテンプレート<br>
 dp > dpp > static = 静的ファイル<br>
 
 dp.xd Adobe XD Photoshopファイルはデザインファイル
+https://xd.adobe.com/spec/8148c7c8-237f-440f-7c92-1c81422fc21f-f779/
